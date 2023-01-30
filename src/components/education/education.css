@@ -1,0 +1,42 @@
+.degree{
+/* background-color: aqua; */
+position: relative;
+
+}
+.degree input{
+    margin-top: 1rem;
+font-size: 25px;
+height: 3rem;
+cursor: pointer;
+}
+.degree button{
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--color-light);
+    
+}
+#mca-details{
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid var(--color-light);
+    border-radius: 5px;
+    height: 6rem;
+}
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px){
+    #mca-details p{
+     font-size: 10px;
+    }
+    .degree input{
+        font-size: 20px;
+    }
+ }
